@@ -9,5 +9,6 @@ namespace BlazorStrap
         Task SetBootstrapCSS(string version);
         Task SetBootstrapCSS(string theme, string version);
         Task SetBootstrapCSS(Theme theme, string version);
+        Task SetCustomBootstrapCSS(string url);
     }
 }
